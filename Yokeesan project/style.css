@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#do-list {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg,#8052ec,#d161ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    width: 1000px;
+
+}
+
+.add {
+    height: 80px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inputs {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(49, 47, 47, 0.37);
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+#inputs:focus {
+    outline: none;
+    border-color:  #8052ec;
+}
+#click {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #8052ec;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.sub-box {
+     margin: 80px 0 20px 0;
+     border-radius: 10px;
+    background-color: #ffffffef;
+    width: 100%;
+    
+    min-height: 40vh;
+    color: black;
+}
+
+
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 100%;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.delete-button {
+    height: 45px;
+    width: 45px;
+    background-color:#8052ec;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-trash-alt {
+    color: #ffffffea;
+}
+
+#letter{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active #letter {
+    font-style: italic;
+    
+}
+.subject-one,.subject-two,.subject-three,.subject-four,.subject-five {
+    display: flex;
+    justify-content: space-between;
+}
+.subject-one input,.subject-two input,.subject-three input,.subject-four input,.subject-five input{
+    height: 40px;
+    width: 200px;
+    margin: 20px;
+
+}
+
+ .calculate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .calculate-button button {
+    height: 50px ;
+    width: 300px;
+ }
+
+ .display-box-gpa {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
